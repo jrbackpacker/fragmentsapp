@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/verde">
+
+    <LinearLayout
+        android:id="@+id/menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="34dp">
+
+
+        <Button
+            android:id="@+id/menu_calculator"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/calculadora"
+            android:drawableTop="@drawable/icon_calcu"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/menu_animals"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="70dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/animales"
+            android:drawableTop="@drawable/icon_animal"
+            android:padding="8dp" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/menu_layout"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>

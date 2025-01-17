@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="back">#00BCD4</color>
+    <color name="button_background_color">#4CAF50</color>
+    <color name="grid_background">#053006</color>
+
+</resources>

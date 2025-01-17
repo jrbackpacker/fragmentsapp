@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Fragments App</string>
+    <string name="animal_image">Imagen del animal</string>
+    <string name="result_text">Resultado: %d</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="animales">Animales</string>
+    <string name="gato">Gato</string>
+    <string name="perro">Perro</string>
+    <string name="p_jaro">Pájaro</string>
+    <string name="pajaro">pajaro</string>
+    <string name="pez">Pez</string>
+    <string name="n_mero_1">Número 1</string>
+    <string name="n_mero_2">Número 2</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado:</string>
+    <string name="result_label">result_label</string>
+    <string name="button_off">DESACTIVADO</string>
+    <string name="button_clear">C</string>
+    <string name="button_percentage">%</string>
+    <string name="button_divide">÷</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_multiply">x</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_subtract">-</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_add">+</string>
+    <string name="button_0">0</string>
+    <string name="button_point">.</string>
+    <string name="button_equals">=</string>
+    <string name="c">C</string>
+    <string name="div">÷</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="mult">×</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="Pajaro">Pajaro</string>
+
+</resources>

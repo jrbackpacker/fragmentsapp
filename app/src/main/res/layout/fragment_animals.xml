@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/button_cat"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:drawableTop="@drawable/icon_gato"
+            android:drawablePadding="4dp"
+            android:text="@string/gato"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_dog"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:drawableTop="@drawable/icon_perro"
+            android:drawablePadding="4dp"
+            android:text="@string/perro"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_bird"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:drawableTop="@drawable/icon_pajaro"
+            android:drawablePadding="4dp"
+            android:text="@string/Pajaro"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_fish"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:drawableTop="@drawable/icon_pez"
+            android:drawablePadding="4dp"
+            android:text="@string/pez"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!-- Contenedor dinámico para mostrar contenido -->
+    <FrameLayout
+        android:id="@+id/dynamic_fragment_container"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="84dp"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:visibility="gone"
+        android:backgroundTint="@android:color/holo_green_light" />
+</LinearLayout>
